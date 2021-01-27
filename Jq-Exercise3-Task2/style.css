@@ -1,0 +1,25 @@
+nav select {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    nav ul{ 
+        display: none; 
+    }
+    nav select{
+        display: inline-block; 
+    }
+}
+
+ul{
+    
+    float: right;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:flex-end
+}
+
+li{
+    margin-right: 25px;
+}
